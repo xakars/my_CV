@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1">
+	<link rel="stylesheet" href="{{url_for('static', path='/styles.css')}}"> 
+        <title>Resume Хакимов А.Б.</title>
+    </head>
+    <body>
+        <div class="card">
+		<img class="card-photo" src="{{url_for('img', path='/man.png')}}" alt="Arsen Hkakimov">
+            <h1 class="card-title"> Arsen Hakimov</h1>
+            <p class="contact-list">
+                Phone number: <a href="tel:+79992082159">+79992082159</a><br>
+                Email: <a href="mailto:xakars02@gmail.com">xakars02@gmail.com</a><br>
+                <b>Telegram:</b> <a href="https://t.me/arsxak">@arsxak</a><br>
+		GitHub: <a href="https://github.com/xakars">xakars</a><br>
+                Adress: Saint-Petersburg
+            </p>
+            <div class="card-text">
+            <p> I'm looking for position:<br>
+                <b>Python developer</b><br>
+            </p>
+            </div>
+            <h2 class="card-subtitle">My skills</h2>
+            <ul class="card-list">
+                <li>Knowledge and skills in Python 3.10</li>
+                <li>Experience with FastAPI</li>
+                <li>Experience with PostgreSQL(psycopg2)</li>
+                <li>Experience with Linux(vim, tmux, ssh, grep, crontab)</li>
+		<li>Understanding and application of REST <a href="https://arsxak.ru/docs">APIs</a></li>
+                <li>Experience working with the Git version control system</li>
+                <li>Experience with products like Jira, Confluence</li>
+		<li>Written and spoken English(intermidiate)</li>
+		<li>Experience in automated testing of mobile applications(Appium, pytest)</li>
+            </ul>
+            <h2 class="card-subtitle">Experience</h2>
+            <p class="data_t">Feb 2021 - now</p>
+            <p>СloudFactory - Mobile QA Engineer(remote)<br>
+            - Testing Mobile software to ensure quality adheres to specifications and documentation<br>- Identify, record, document and track bugs,
+                assist in debugging<br>- Create and maintain test plans, test cases and test summaries
+            </p>
+            <p class="data_t">July 2019 - September 2019</p>
+            <p>TechnoNICOL - Electronic engineer (Uchaly)<br>
+            Ensuring the uninterrupted operation of the electronic, electrical equipment of the enterprise.</p>
+            <p class="data_t">March 2016 - February 2019</p>
+            <p>RIVS Group - Engineer of department Automated process control system(Saint-Petersburg)</p>
+            <h2 class="card-subtitle">Education</h2>
+            <p class="data_t">2017-2019 (Master’s)</p>
+            <p>Saint-Petersburg Electrotechnical University ETU “LETI”<br>Electroenergetics and Electrical Engineering</p>
+            <p class="data_t">2013-2017 (Bachelor’s)</p>
+            <p>Saint-Petersburg State Technological University of Plant Polimers<br>Electroenergetics and Electrical Engineering</p>
+        </div>
+        
+    </body>
+</html>
